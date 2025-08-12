@@ -6,7 +6,7 @@
     "dev": "npm run web",
     "web": "cd web && npm run dev",
     "client": "cd client && npm start",
-    "build": "cd web && npm run build",
+    "build": "cd web && npm install && npm run build",
     "build:web": "cd web && npm run build",
     "preview": "cd web && npm run preview",
     "install-all": "npm install && cd web && npm install && cd ../client && npm install"
